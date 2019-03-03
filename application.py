@@ -9,7 +9,6 @@ from datetime import datetime,timedelta
 import requests
 import json
 from stop_words import get_stop_words
-import pymongo
 import boto3
 from scipy.spatial.distance import cosine
 import goslate
